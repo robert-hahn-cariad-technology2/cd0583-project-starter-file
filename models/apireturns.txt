@@ -1,161 +1,26 @@
 {
   "prediction": {
-    "predictions": [
-      0,
-      1,
-      1,
-      0,
-      1
-    ]
+    "url": "http://127.0.0.1:8000/prediction",
+    "method": "post",
+    "status_code": 405,
+    "body": "<!doctype html>\n<html lang=en>\n<title>405 Method Not Allowed</title>\n<h1>Method Not Allowed</h1>\n<p>The method is not allowed for the requested URL.</p>\n"
   },
   "scoring": {
-    "f1_score": 0.3333333333333333
+    "url": "http://127.0.0.1:8000/scoring",
+    "method": "get",
+    "status_code": 404,
+    "body": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n"
   },
   "summarystats": {
-    "summary_statistics": [
-      [
-        5625.923076923077,
-        763.5384615384615,
-        457.46153846153845,
-        0.5
-      ],
-      [
-        425.0,
-        97.5,
-        99.0,
-        0.5
-      ],
-      [
-        19444.774621317832,
-        2016.6093569309696,
-        800.604832899189,
-        0.5099019513592785
-      ]
-    ]
+    "url": "http://127.0.0.1:8000/summarystats",
+    "method": "get",
+    "status_code": 404,
+    "body": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n"
   },
   "diagnostics": {
-    "execution_time": [
-      0.28466520411893725,
-      0.8968760431744158
-    ],
-    "missing_data_percent": [
-      0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.0
-    ],
-    "outdated_packages": [
-      {
-        "current_version": "8.3.1",
-        "latest_version": "8.3.2",
-        "package": "click"
-      },
-      {
-        "current_version": "0.12.1",
-        "latest_version": "0.12.1",
-        "package": "cycler"
-      },
-      {
-        "current_version": "3.1.3",
-        "latest_version": "3.1.3",
-        "package": "Flask"
-      },
-      {
-        "current_version": "23.0.0",
-        "latest_version": "25.3.0",
-        "package": "gunicorn"
-      },
-      {
-        "current_version": "2.2.0",
-        "latest_version": "2.2.0",
-        "package": "itsdangerous"
-      },
-      {
-        "current_version": "3.1.6",
-        "latest_version": "3.1.6",
-        "package": "Jinja2"
-      },
-      {
-        "current_version": "1.5.3",
-        "latest_version": "1.5.3",
-        "package": "joblib"
-      },
-      {
-        "current_version": "1.5.0",
-        "latest_version": "1.5.0",
-        "package": "kiwisolver"
-      },
-      {
-        "current_version": "3.0.3",
-        "latest_version": "3.0.3",
-        "package": "MarkupSafe"
-      },
-      {
-        "current_version": "3.10.8",
-        "latest_version": "3.10.8",
-        "package": "matplotlib"
-      },
-      {
-        "current_version": "2.3.5",
-        "latest_version": "2.4.4",
-        "package": "numpy"
-      },
-      {
-        "current_version": "2.3.3",
-        "latest_version": "3.0.2",
-        "package": "pandas"
-      },
-      {
-        "current_version": "12.1.1",
-        "latest_version": "12.1.1",
-        "package": "Pillow"
-      },
-      {
-        "current_version": "3.3.2",
-        "latest_version": "3.3.2",
-        "package": "pyparsing"
-      },
-      {
-        "current_version": "2.9.0.post0",
-        "latest_version": "2.9.0.post0",
-        "package": "python-dateutil"
-      },
-      {
-        "current_version": "2026.1.post1",
-        "latest_version": "2026.1.post1",
-        "package": "pytz"
-      },
-      {
-        "current_version": "1.8.0",
-        "latest_version": "1.8.0",
-        "package": "scikit-learn"
-      },
-      {
-        "current_version": "1.16.3",
-        "latest_version": "1.17.1",
-        "package": "scipy"
-      },
-      {
-        "current_version": "0.13.2",
-        "latest_version": "0.13.2",
-        "package": "seaborn"
-      },
-      {
-        "current_version": "1.17.0",
-        "latest_version": "1.17.0",
-        "package": "six"
-      },
-      {
-        "current_version": "3.6.0",
-        "latest_version": "3.6.0",
-        "package": "threadpoolctl"
-      },
-      {
-        "current_version": "3.1.6",
-        "latest_version": "3.1.8",
-        "package": "Werkzeug"
-      }
-    ]
+    "url": "http://127.0.0.1:8000/diagnostics",
+    "method": "get",
+    "status_code": 404,
+    "body": "<!doctype html>\n<html lang=en>\n<title>404 Not Found</title>\n<h1>Not Found</h1>\n<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>\n"
   }
 }
